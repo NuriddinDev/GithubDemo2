@@ -27,8 +27,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+            callHomeController()
         }
     }
+    
+    func callHomeController() {
+            let vc:HomeViewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+            if self.window == nil {
+                self.window = UIWindow(frame: UIScreen.main.bounds)
+            }
+            self.window?.rootViewController = vc
+            self.window?.makeKeyAndVisible()
+        }
 
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.

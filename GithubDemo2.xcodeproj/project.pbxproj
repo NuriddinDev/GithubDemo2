@@ -13,6 +13,8 @@
 		F88209F626A34DD2005F6A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88209F526A34DD2005F6A52 /* Assets.xcassets */; };
 		F88209F926A34DD2005F6A52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88209F826A34DD2005F6A52 /* Preview Assets.xcassets */; };
 		F88209FC26A34DD2005F6A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F88209FA26A34DD2005F6A52 /* LaunchScreen.storyboard */; };
+		F8820A0626A34E23005F6A52 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8820A0426A34E23005F6A52 /* HomeViewController.swift */; };
+		F8820A0726A34E23005F6A52 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8820A0526A34E23005F6A52 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F88209F826A34DD2005F6A52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F88209FB26A34DD2005F6A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F88209FD26A34DD2005F6A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8820A0426A34E23005F6A52 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F8820A0526A34E23005F6A52 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F88209EE26A34DD1005F6A52 /* GithubDemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				F8820A0326A34E0D005F6A52 /* controllers */,
 				F88209EF26A34DD1005F6A52 /* AppDelegate.swift */,
 				F88209F126A34DD1005F6A52 /* SceneDelegate.swift */,
 				F88209F326A34DD1005F6A52 /* ContentView.swift */,
@@ -73,6 +78,15 @@
 				F88209F826A34DD2005F6A52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8820A0326A34E0D005F6A52 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8820A0426A34E23005F6A52 /* HomeViewController.swift */,
+				F8820A0526A34E23005F6A52 /* HomeViewController.xib */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +149,7 @@
 				F88209FC26A34DD2005F6A52 /* LaunchScreen.storyboard in Resources */,
 				F88209F926A34DD2005F6A52 /* Preview Assets.xcassets in Resources */,
 				F88209F626A34DD2005F6A52 /* Assets.xcassets in Resources */,
+				F8820A0726A34E23005F6A52 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +163,7 @@
 				F88209F026A34DD1005F6A52 /* AppDelegate.swift in Sources */,
 				F88209F226A34DD1005F6A52 /* SceneDelegate.swift in Sources */,
 				F88209F426A34DD1005F6A52 /* ContentView.swift in Sources */,
+				F8820A0626A34E23005F6A52 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
